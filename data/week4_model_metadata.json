@@ -1,0 +1,35 @@
+{
+  "target": "trees_per_km2",
+  "feature_names": [
+    "elevation_m",
+    "population_density_per_km2",
+    "pct_impervious_proxy",
+    "pct_parkland",
+    "pct_water",
+    "population",
+    "region_Northeast",
+    "region_South",
+    "region_West"
+  ],
+  "numeric_features": [
+    "elevation_m",
+    "population_density_per_km2",
+    "pct_impervious_proxy",
+    "pct_parkland",
+    "pct_water",
+    "population"
+  ],
+  "categorical_features": [
+    "region"
+  ],
+  "best_params": {
+    "max_depth": null,
+    "min_samples_leaf": 4,
+    "n_estimators": 400
+  },
+  "loo_r2": -0.12579293393397561,
+  "loo_mae": 300.093397253613,
+  "loo_rmse": 351.50657512920964,
+  "oob_r2": -0.11000527813222338,
+  "n_cities": 12
+}
